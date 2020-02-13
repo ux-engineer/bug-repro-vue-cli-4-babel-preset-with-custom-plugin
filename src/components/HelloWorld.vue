@@ -38,6 +38,10 @@ export default Vue.extend({
   props: {
     msg: String,
   },
+  mounted: function () {
+    console.log('Well hello, I should not appear...!');
+    console.warn('Well hello, a warning should be left here.');
+  }
 });
 </script>
 
